@@ -1,0 +1,19 @@
+{
+  "name": "hyperclean-super-agent",
+  "version": "3.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.57.0",
+    "ws": "^8.18.0",
+    "alawmulaw": "^6.0.0"
+  }
+}
