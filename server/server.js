@@ -3,7 +3,7 @@ import express from 'express';
 import http from 'http';
 import { WebSocketServer, WebSocket as WSClient } from 'ws';
 import OpenAI from 'openai';
-imimport * as mulaw from 'alawmulaw/mulaw';
+import * as mulaw from 'alawmulaw/mulaw';
 // import * as alaw from 'alawmulaw/alaw'; // reserved for future A-Law support
 
 const app = express();
